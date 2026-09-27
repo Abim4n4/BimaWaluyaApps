@@ -6,3 +6,16 @@ coverage/
 *.log
 .env*
 !.env.example
+
+# Security & Private Credentials Hardening
+*.pem
+*.key
+*.cert
+*.pfx
+service-account*.json
+credentials.json
+client_secret*.json
+*.token
+*.sqlite
+*.db
+.vercel
